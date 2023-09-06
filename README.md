@@ -18,12 +18,14 @@ cd terraform-aws-Budgets
 ```
 * Create access key in AWS CLI
 ![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/404e9e9b-6c60-42fc-bab5-0d92727f7dfe)
-  * Modify main.tf file with your access and secret key
-  ```
-  access_key = "Your-access-key"
-  secret_key = "Your-seceret-key"
-  ```
-
+* Configure your aws cli using your user's access/secret keys
+```
+> aws configure
+AWS Access Key ID [None]: ****************H64O
+AWS Secret Access Key [None]: ****************cYaR
+Default region name [None]: us-east-1
+Default output format [None]:
+```
 * Copy ami id (free tier, Ubuntu, t2.micro) from aws console
 ```
 ami = "ami-053b0d53c279acc90"

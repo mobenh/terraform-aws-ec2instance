@@ -1,11 +1,22 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "Your-access-key"
-  secret_key = "Your-seceret-key"
+}
+
+data "aws" "std_ami" {
+  most_recent = true
+  owners = ["amazon"]
+  filter {
+    name =  "root-device-type"
+    values = ["ebs"]
+  }
+  filter {
+    name = "virtualization-type"
+    values = ["hvm"]
+  }
 }
 
 resource "aws_instance" "my-server" {
-  ami           = "ami-053b0d53c279acc90"
+  ami = data.aws_ami.std_ami.id
   instance_type = "t2.micro"
   tags = {
     Name = "ubuntu"

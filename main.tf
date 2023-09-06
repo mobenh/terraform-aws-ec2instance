@@ -2,7 +2,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-data "aws_ami" "std_ami" {
+data "aws_ami" "ubuntu" {
   most_recent = true
   owners = ["amazon"]
   filter {
@@ -16,7 +16,7 @@ data "aws_ami" "std_ami" {
 }
 
 resource "aws_instance" "my-server" {
-  ami = data.aws_ami.std_ami.id
+  ami = data.aws_ami.ubuntu.id
   instance_type = "t2.micro"
   tags = {
     Name = "ubuntu"

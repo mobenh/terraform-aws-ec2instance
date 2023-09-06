@@ -39,3 +39,6 @@ terraform apply
 ```
 Now the EC2 instance is created.
 * Go to your AWS Budgets and see the newly created EC2 instance
+
+## Docs
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance

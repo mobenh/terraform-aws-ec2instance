@@ -2,7 +2,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-data "aws" "std_ami" {
+data "aws_ami" "std_ami" {
   most_recent = true
   owners = ["amazon"]
   filter {

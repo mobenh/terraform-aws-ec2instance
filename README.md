@@ -3,11 +3,11 @@ In this project I used Terraform to create a Ubuntu EC2 instance.
 ![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/eafccabb-14ac-47d9-9a46-ad463252704a)
 
 ## Technologies Used
-Terraform
+Terraform <br> 
 AWS
 
 ## Dependencies
-Install Terraform - https://www.python.org/downloads/release/python-3106/
+Install Terraform - https://developer.hashicorp.com/terraform/downloads <br> 
 Install aws cli - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ## Executing program

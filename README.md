@@ -1,6 +1,6 @@
 # Creating EC2 instance using Terraform
 In this project I used Terraform to create a Ubuntu EC2 instance.
-![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/7920c492-5c7d-4213-8089-944c282f6162)
+![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/eafccabb-14ac-47d9-9a46-ad463252704a)
 
 ## Technologies Used
 Terraform

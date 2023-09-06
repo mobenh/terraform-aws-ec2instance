@@ -40,5 +40,17 @@ terraform apply
 Now the EC2 instance is created.
 * Go to your AWS Budgets and see the newly created EC2 instance
 
+## Modify instance
+* Change any details like the tags section of main.tf then run
+```
+terraform apply
+```
+
+## Delete instance
+run
+```
+terraform destroy
+```
+
 ## Docs
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance

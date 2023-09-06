@@ -8,6 +8,7 @@ AWS
 
 ## Dependencies
 Install Terraform - https://www.python.org/downloads/release/python-3106/
+Install aws cli - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ## Executing program
 * Download the repository to your computer and then go to project file

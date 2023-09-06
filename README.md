@@ -51,6 +51,7 @@ run
 ```
 terraform destroy
 ```
+or delete the resource section of the main.tf file
 
 ## Docs
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance

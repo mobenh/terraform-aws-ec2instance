@@ -26,11 +26,6 @@ AWS Secret Access Key [None]: ****************cYaR
 Default region name [None]: us-east-1
 Default output format [None]:
 ```
-* Copy ami id (free tier, Ubuntu, t2.micro) from aws console
-```
-ami = "ami-053b0d53c279acc90"
-```
-\* this might change so you need to check in AWS console
 
 * Now use Terraform to provision and create EC2 instance
 ```

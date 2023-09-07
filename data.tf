@@ -1,5 +1,5 @@
 # get the most recent ami if for the Amazon Linux ami
-data "aws_ami" "ubuntu" {
+data "aws_ami" "std_ami" {
   most_recent = true
   owners = ["amazon"]
   filter {

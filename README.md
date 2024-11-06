@@ -1,5 +1,5 @@
 # Creating EC2 instance using Terraform
-In this project I used Terraform to create a Ubuntu EC2 instance.
+In this project I used Terraform to create a Linux EC2 instance.
 ![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/eafccabb-14ac-47d9-9a46-ad463252704a)
 
 ## Technologies Used
@@ -13,10 +13,10 @@ Install aws cli - https://docs.aws.amazon.com/cli/latest/userguide/getting-start
 ## Executing program
 * Download the repository to your computer and then go to project file
 ```
-git clone https://github.com/sayedh/terraform-aws-Budgets
-cd terraform-aws-Budgets
+git clone https://github.com/mobenh/terraform-aws-ec2instance.git
+cd terraform-aws-ec2instance
 ```
-* Create access key in AWS CLI
+* Create access key in AWS IAM
 ![image](https://github.com/mobenh/terraform-aws-ec2instance/assets/96225596/404e9e9b-6c60-42fc-bab5-0d92727f7dfe)
 * Configure your aws cli using your user's access/secret keys
 ```
@@ -36,7 +36,7 @@ terraform plan
 terraform apply
 ```
 Now the EC2 instance is created.
-* Go to your AWS Budgets and see the newly created EC2 instance
+* Go to your AWS EC2 and see the newly created EC2 instance
 
 ## Modify instance
 * Change any details like the tags section of main.tf then run

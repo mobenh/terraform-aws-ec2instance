@@ -1,0 +1,7 @@
+Maybe ask chatgpt to combine files, main.tf, provider.tf, data.tf 
+update readme to explain on how to remove EC2 and create multiple.
+add gitlab CI/CD to this project. 
+    copy the code to gitlab
+    create a .gitlab-ci.yml file 
+    add aws access keys to the gitlab env variables
+    
